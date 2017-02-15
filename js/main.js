@@ -5,6 +5,11 @@ $(document).ready(function() {
   var darkText = $('h1').text('Hey, who turned off the lights?')
   $('button').attr('class', 'off')
 
+  $('button').on('click', function() {
+    window.alert('switch!')
+  });
+
+
 
 
 
